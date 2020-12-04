@@ -20,10 +20,17 @@ plugins {
 }
 
 def versions = [:]
+
+versions["203"] = [
+    ideaSDKVersion: "IC-203.5981.155",
+    sinceBuild: "201",
+    untilBuild: "203.*",
+    archiveName: "IntelliJ-EmmyLua"
+]
 versions["202"] = [
     ideaSDKVersion: "IC-202.6397.94",
     sinceBuild: "201",
-    untilBuild: "202.*",
+    untilBuild: "203.*",
     archiveName: "IntelliJ-EmmyLua"
 ]
 versions["201"] = [
